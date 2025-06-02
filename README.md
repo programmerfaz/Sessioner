@@ -62,7 +62,7 @@
 
 ---
 ## 🔍 Image of the project
-![alt text](image.png)
+![App Screenshot](./src/assets/description.png)
 ---
 
-> Made with ❤️ using OpenAI and modern web tools.
+> Made using OpenAI and modern web tools.
