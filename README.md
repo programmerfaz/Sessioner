@@ -1,12 +1,68 @@
-# React + Vite
+# Audio Transcription Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Audio Transcription Studio** is a web-based application designed to **record, upload, transcribe, and summarize audio** using AI-powered tools. It offers a clean, responsive UI with features aimed at enhancing accessibility and productivity for users working with spoken content.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Key Features
 
-## Expanding the ESLint configuration
+### 🎙️ Audio Recorder
+- Record audio directly from your device.
+- Upload pre-recorded audio files (supports formats like `.mp3`, `.wav`, `.m4a`, etc.).
+- Friendly interface with prominent buttons to start recording or upload files.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌐 Translation Support
+- Allows users to select a target language from a dropdown (e.g., Arabic).
+- Displays transcribed audio in the selected language for localization purposes.
+
+### ▶️ Audio Preview
+- In-browser audio player to listen to the uploaded or recorded file.
+- Real-time feedback before processing.
+
+### 📝 Transcription
+- AI generates a **detailed transcription** of the audio.
+- Shown in a scrollable and clearly labeled section.
+- Supports right-to-left (RTL) languages like Arabic.
+
+### 📚 Summary Generation
+- Users can click **"Generate Summary"** to receive a concise overview of the transcription content.
+- Helps save time by condensing large audio files into key takeaways.
+
+### 📢 Announcements / Action Items
+- Summarizes important next steps, reminders, or highlights from the audio.
+- Useful for meetings, lectures, and project planning.
+
+---
+
+## 💻 Tech Stack & Styling
+
+- Built with **React + Tailwind CSS** for responsive, mobile-friendly design.
+- UI features:
+  - Gradient background with a soft, professional color palette.
+  - Modular cards for transcription, summary, and announcements.
+  - Buttons styled with hover transitions and clear call-to-actions.
+
+---
+
+## 📌 Use Cases
+
+- Meeting recording and minutes summarization.
+- Lecture or podcast transcription for study notes.
+- Audio translation for multilingual teams.
+- Accessibility support for hearing-impaired users.
+
+---
+
+## 🚀 Future Enhancements (Suggestions)
+- Multi-language transcription and auto-detect language.
+- Save/export functionality for transcripts and summaries.
+- User authentication for saving session history.
+- Integration with calendar or task apps for action items.
+
+
+---
+## 🔍 Image of the project
+![alt text](image.png)
+---
+
+> Made with ❤️ using OpenAI and modern web tools.
