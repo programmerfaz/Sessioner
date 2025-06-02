@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+html, body {
+  min-width: 320px;  /* Prevents width from going below 320px */
+  min-height: 480px; /* Optional: prevents height from shrinking too much */
+  overflow-x: auto;  /* Adds horizontal scroll if content exceeds min-width */
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #86fde8);
+}
